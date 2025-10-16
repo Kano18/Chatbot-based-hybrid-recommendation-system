@@ -1,6 +1,10 @@
-# LLM recommendation system
+# AI Shopping Assistant Chatbot (AWS-Integrated)
+An LLM-based hybrid recommender deployed on AWS, using Streamlit for the front end and FAISS for product similarity search.
 
-Build hyrbid recommendation system while integrating with LLMs
+## Highlights
+- Hybrid recommendation (Collaborative + Content-based + LLM)
+- AWS Integration: S3 for dataset/model storage, EC2 for deployment, Lambda for automation
+- Streamlit chatbot interface for real-time product suggestions
 
 ## Quickstart
 
