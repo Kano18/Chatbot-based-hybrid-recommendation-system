@@ -3,7 +3,10 @@ An LLM-based hybrid recommender deployed on AWS, using Streamlit for the front e
 
 ## Highlights
 - Hybrid recommendation (Collaborative + Content-based + LLM)
-- AWS Integration: S3 for dataset/model storage, EC2 for deployment, Lambda for automation
+- AWS Integration:
+  + S3 – Stores datasets, model files, and chat logs  
+  + EC2 – Hosts the Streamlit chatbot app  
+  + Lambda – Automates model retraining and updates 
 - Streamlit chatbot interface for real-time product suggestions
 
 ## Quickstart
